@@ -1,0 +1,21 @@
+{
+  "mode": "dummy",
+  "keywords": [
+    "kurir",
+    "gudang",
+    "operator produksi",
+    "driver sim b1",
+    "teknisi"
+  ],
+  "telegram_channels": [],
+  "red_flag_terms": [
+    "biaya administrasi",
+    "biaya seragam",
+    "transfer biaya",
+    "titip dana",
+    "jaminan ijazah",
+    "biaya proses",
+    "bayar pendaftaran"
+  ],
+  "min_quality_score": 50
+}

@@ -1,0 +1,29 @@
+# Virtual environment & Python cache
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+build/
+dist/
+
+# Environment variables & secrets
+.env
+*.pem
+*.key
+
+# Data hasil crawl, log, dan output (sesuaikan jika CSV hasil rilis ingin ikut di-commit)
+data/raw/*
+data/logs/*
+data/released/*
+!data/raw/.gitkeep
+!data/logs/.gitkeep
+!data/released/.gitkeep
+
+# Editor & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
