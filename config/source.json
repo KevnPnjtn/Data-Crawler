@@ -1,0 +1,27 @@
+{
+  "websites": {
+    "enabled": true,
+    "max_pages_per_source": 1,
+    "max_detail_requests_per_source": 5,
+    "request_delay_seconds": 1.5
+  },
+  "telegram": {
+    "enabled": false,
+    "mode": "bot_api",
+    "channels": [],
+    "download_images": true
+  },
+  "instagram": {
+    "enabled": false,
+    "mode": "official_api",
+    "download_images": true
+  },
+  "manual_images": {
+    "enabled": true,
+    "input_directory": "data/raw/manual/images"
+  },
+  "glints_manual": {
+    "enabled": true,
+    "input_file": "data/raw/manual/glints-manual.csv"
+  }
+}

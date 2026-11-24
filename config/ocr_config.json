@@ -1,0 +1,28 @@
+{
+  "engine": "paddleocr",
+  "device": "cpu",
+  "languages": ["Indonesian", "English"],
+  "preserve_original_image": true,
+  "preprocessing": {
+    "enabled": true,
+    "auto_orient": true,
+    "resize_if_needed": true,
+    "max_dimension": 2400,
+    "contrast_enhancement": true,
+    "contrast_factor": 1.25,
+    "denoise": false,
+    "deskew": false
+  },
+  "review": {
+    "enabled": true,
+    "confidence_threshold": 0.75,
+    "threshold_is_advisory": true
+  },
+  "output": {
+    "ocr_directory": "data/interim/ocr",
+    "extracted_directory": "data/interim/extracted",
+    "review_directory": "data/interim/review"
+  }
+}
+
+

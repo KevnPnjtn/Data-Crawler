@@ -1,0 +1,7 @@
+# Optional local CPU OCR runtime. PaddleOCR may download model files on first use.
+# PaddlePaddle 3.2.0 is the CPU install version documented by PaddleOCR 3.x.
+Pillow>=10,<13
+--extra-index-url https://www.paddlepaddle.org.cn/packages/stable/cpu/
+paddlepaddle==3.2.0
+paddleocr>=3,<4
+

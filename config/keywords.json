@@ -1,11 +1,18 @@
 {
-  "mode": "dummy",
+  "mode": "live",
   "keywords": [
     "kurir",
     "gudang",
-    "operator produksi",
-    "driver sim b1",
+    "operator",
+    "driver",
+    "helper",
+    "kasir",
+    "barista",
     "teknisi"
+  ],
+  "instagram_tags": [
+    "lokergudang",
+    "lokerindonesia"
   ],
   "telegram_channels": [],
   "red_flag_terms": [
@@ -15,7 +22,8 @@
     "titip dana",
     "jaminan ijazah",
     "biaya proses",
-    "bayar pendaftaran"
+    "bayar pendaftaran",
+    "member berbayar"
   ],
-  "min_quality_score": 50
+  "min_quality_score": 40
 }
